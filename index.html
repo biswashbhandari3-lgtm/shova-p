@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shova Photography - Capturing Moments</title>
+    <meta name="description"
+        content="Premium photography portfolio for Shova Photography. Specializing in wedding, portrait, and event photography.">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap"
+        rel="stylesheet">
+    <!-- BoxIcons / FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- Header / Navigation -->
+    <header class="header">
+        <div class="container nav-container">
+            <a href="#" class="logo">Shova.</a>
+            <nav class="navbar">
+                <ul class="nav-links">
+                    <li><a href="#hero" class="active">Home</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="hamburger">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+        <div class="hero-bg">
+            <img src="images/hero_bg.jpg" alt="Hero Background">
+        </div>
+        <div class="hero-overlay"></div>
+        <div class="container hero-content">
+            <h1 class="hero-title">Shova Photography</h1>
+            <p class="hero-subtitle">Capturing Moments That Last Forever</p>
+            <div class="hero-buttons">
+                <a href="#portfolio" class="btn btn-primary">View Portfolio</a>
+                <a href="#contact" class="btn btn-secondary">Contact Me</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio section">
+        <div class="container">
+            <h2 class="section-title">Portfolio</h2>
+            <div class="filter-buttons">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="wedding">Wedding</button>
+                <button class="filter-btn" data-filter="portrait">Portrait</button>
+                <button class="filter-btn" data-filter="events">Events</button>
+            </div>
+
+            <div class="portfolio-grid">
+                <!-- Wedding Images -->
+                <div class="portfolio-item wedding">
+                    <img src="images/wedding_1.jpeg" alt="Wedding Photography">
+                    <div class="item-overlay">
+                        <i class="fas fa-search-plus"></i>
+                    </div>
+                </div>
+                
+                <!-- Portrait Images -->
+                <div class="portfolio-item portrait">
+                    <img src="images/portrait_1.jpeg" alt="Portrait Photography">
+                    <div class="item-overlay">
+                        <i class="fas fa-search-plus"></i>
+                    </div>
+                </div>
+                
+                <!-- Events Images -->
+                <div class="portfolio-item events">
+                    <img src="images/event_1.jpeg" alt="Event Photography">
+                    <div class="item-overlay">
+                        <i class="fas fa-search-plus"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about section">
+        <div class="about-bg-text">ABOUT</div>
+        <div class="container about-container">
+            <div class="about-image-wrapper">
+                <div class="about-image">
+                    <img src="images/about_photographer.jpg" alt="Shova Adhikari">
+                </div>
+                <div class="about-decorative-box"></div>
+            </div>
+            <div class="about-content">
+                <div class="section-header-left">
+                    <h3 class="about-subtitle">The Artist</h3>
+                    <h2 class="section-title text-left">Behind the Lens</h2>
+                </div>
+                
+                <div class="about-text-box">
+                    <i class="fas fa-quote-left quote-icon"></i>
+                    <p class="lead-text">Hello, I'm Shova Adhikari. Photography is more than just a profession for me; it's a lifelong passion.</p>
+                    <p>I specialize in capturing the raw emotions, fleeting moments, and unique stories of the people I photograph. With an eye for cinematic lighting and elegant composition, my goal is to create premium imagery that stands the test of time, leaving you with visual memories that last forever.</p>
+                </div>
+                
+                <a href="#contact" class="btn btn-primary mt-4">Let's Work Together</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section">
+        <div class="container contact-container">
+            <h2 class="section-title">Get In Touch</h2>
+            <p class="contact-desc">Ready to craft your visual story? Reach out for bookings and inquiries.</p>
+
+            <div class="contact-cards">
+                <a href="https://wa.me/9779000000000" target="_blank" class="contact-card">
+                    <div class="card-icon"><i class="fab fa-whatsapp"></i></div>
+                    <h3>WhatsApp</h3>
+                    <p>Message me directly</p>
+                </a>
+
+                <a href="tel:+9779000000000" class="contact-card">
+                    <div class="card-icon"><i class="fas fa-phone"></i></div>
+                    <h3>Phone</h3>
+                    <p>+977 9000000000</p>
+                </a>
+
+                <a href="mailto:hello@shovaphotography.com" class="contact-card">
+                    <div class="card-icon"><i class="far fa-envelope"></i></div>
+                    <h3>Email</h3>
+                    <p>hello@shovaphotography.com</p>
+                </a>
+
+                <a href="https://www.facebook.com/shova.adhikari.588730" target="_blank" class="contact-card">
+                    <div class="card-icon"><i class="fab fa-facebook-f"></i></div>
+                    <h3>Facebook</h3>
+                    <p>Shova Adhikari</p>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-logo">Shova.</div>
+            <div class="footer-socials">
+                <a href="https://www.facebook.com/shova.adhikari.588730" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://www.instagram.com/shova_photography?igsh=ZjY2N284M3RhaDJ5" target="_blank"><i class="fab fa-instagram"></i></a>
+            </div>
+            <p class="copyright">&copy; <span id="current-year"></span> Shova Photography. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Lightbox -->
+    <div class="lightbox" id="lightbox">
+        <span class="close-lightbox">&times;</span>
+        <img class="lightbox-img" src="" alt="Lightbox Preview">
+    </div>
+
+    <!-- Scripts -->
+    <script src="js/script.js"></script>
+</body>
+
+</html>
