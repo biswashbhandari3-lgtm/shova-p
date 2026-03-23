@@ -631,20 +631,24 @@ h1, h2, h3, h4, h5, h6, .logo {
 
 /* Responsive */
 @media (max-width: 992px) {
+    .section {
+        padding: 5rem 0;
+    }
+
     .about-container {
         grid-template-columns: 1fr;
-        gap: 3rem;
+        gap: 2rem;
     }
     
     .about-image-wrapper {
-        max-width: 500px;
+        max-width: 450px;
         margin: 0 auto;
     }
     
     .about-content {
         margin-left: 0;
-        margin-top: -4rem;
-        padding: 2.5rem;
+        margin-top: -3rem;
+        padding: 2rem;
     }
 
     .about-decorative-box {
@@ -659,6 +663,19 @@ h1, h2, h3, h4, h5, h6, .logo {
 }
 
 @media (max-width: 768px) {
+    .section {
+        padding: 4rem 0;
+    }
+
+    .section-title {
+        font-size: 2.2rem;
+        margin-bottom: 2rem;
+    }
+
+    .hero-bg img {
+        object-position: center center;
+    }
+
     .nav-links {
         position: fixed;
         top: 0;
@@ -696,12 +713,73 @@ h1, h2, h3, h4, h5, h6, .logo {
     .hero-title {
         font-size: 2.8rem;
     }
+
+    .hero-subtitle {
+        font-size: 1rem;
+        padding: 0 1rem;
+        margin-bottom: 2rem;
+    }
     
     .hero-buttons {
         flex-direction: column;
+        width: 100%;
+        padding: 0 1.5rem;
+        gap: 1rem;
+    }
+
+    .hero-buttons .btn {
+        width: 100%;
+        text-align: center;
+    }
+
+    .about-content {
+        padding: 1.5rem;
+    }
+
+    .about-content .section-title {
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    .section-header-left {
+        text-align: center;
+    }
+
+    .about-subtitle {
+        justify-content: center;
+    }
+
+    .about-subtitle::after {
+        display: none;
+    }
+
+    .about-text-box {
+        padding-left: 0;
+        text-align: center;
+    }
+
+    .quote-icon {
+        position: relative;
+        display: block;
+        margin: 0 auto 1rem;
+        font-size: 3rem;
+        opacity: 0.2;
+    }
+
+    .lead-text {
+        font-size: 1.1rem;
     }
     
     .portfolio-grid {
         grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    }
+
+    .filter-buttons {
+        gap: 0.5rem;
+    }
+
+    .filter-btn {
+        font-size: 0.85rem;
+        padding-bottom: 3px;
     }
 }
